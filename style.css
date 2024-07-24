@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.connect-four {
+    display: inline-block;
+    text-align: center;
+}
+
+.button-row {
+    margin-bottom: 10px;
+}
+
+.button-row button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    grid-gap: 5px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.token {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.token.player1 {
+    background-color: red;
+}
+
+.token.player2 {
+    background-color: yellow;
+}

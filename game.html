@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="connect-four">
+        <div class="button-row">
+            <!-- Buttons for each column -->
+            <button onclick="dropToken(0)">Drop</button>
+            <button onclick="dropToken(1)">Drop</button>
+            <button onclick="dropToken(2)">Drop</button>
+            <button onclick="dropToken(3)">Drop</button>
+            <button onclick="dropToken(4)">Drop</button>
+            <button onclick="dropToken(5)">Drop</button>
+            <button onclick="dropToken(6)">Drop</button>
+            <button onclick="dropToken(7)">Drop</button>
+            <button onclick="dropToken(8)">Drop</button>
+        </div>
+        <div id="board">
+            <!-- Create the 9x9 grid -->
+            <!-- Rows and cells will be generated here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
